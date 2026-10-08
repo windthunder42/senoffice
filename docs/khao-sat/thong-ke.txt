@@ -1,0 +1,63 @@
+ban-quyen-MPL	32240
+so file co thong bao ban quyen	31857
+chữ	5574
+dữ liệu kiểm thử / tài liệu nội bộ	4818
+chữ (bản dịch)	3272
+định danh trong mã (không hiển thị)	1745
+URL (bản dịch)	1132
+chữ (chú thích mã)	869
+URL	649
+ảnh	369
+siêu dữ liệu bản dịch	276
+mã định danh gói	169
+URL (trong chú thích)	106
+mã định danh gói (namespace Java)	33
+
+giao diện web	chữ (bản dịch)=3127, URL (bản dịch)=1132, ban-quyen-MPL=637, siêu dữ liệu bản dịch=233, chữ=91, chữ (chú thích mã)=40, ảnh=17, định danh trong mã (không hiển thị)=14, URL=13, URL (trong chú thích)=10, mã định danh gói=4
+khác (.github)	URL=2, định danh trong mã (không hiển thị)=2
+khác (.gitignore)	định danh trong mã (không hiển thị)=12, chữ (chú thích mã)=5, chữ=1
+khác (.gitreview)	URL=1
+khác (.mailmap)	chữ=11
+khác (CODA-THIRDPARTYLICENSES.html)	ban-quyen-MPL=7
+khác (CODE_OF_CONDUCT.md)	URL=1
+khác (CONTRIBUTING.md)	URL=15, chữ=7, chữ (chú thích mã)=1, URL (trong chú thích)=1, ban-quyen-MPL=1
+khác (Makefile.am)	chữ=8, ban-quyen-MPL=1, chữ (chú thích mã)=1
+khác (README-gbuild.md)	chữ (chú thích mã)=1
+khác (README.FILENOTICES.md)	ban-quyen-MPL=2
+khác (README.md)	URL (trong chú thích)=22, URL=16, chữ (chú thích mã)=4, chữ=4, định danh trong mã (không hiển thị)=1
+khác (SBOM.md)	ban-quyen-MPL=21
+khác (SECURITY.md)	chữ=1, URL=1
+khác (THIRDPARTYLICENSES)	ban-quyen-MPL=9
+khác (autogen.py)	ban-quyen-MPL=1
+khác (clang)	chữ (chú thích mã)=1, ban-quyen-MPL=1
+khác (config.d)	chữ (chú thích mã)=5, chữ=2
+khác (config.h.in)	định danh trong mã (không hiển thị)=2, chữ (chú thích mã)=1
+khác (config_version.h.in)	chữ (chú thích mã)=2
+khác (configure.ac)	định danh trong mã (không hiển thị)=33, chữ=9, chữ (chú thích mã)=6, URL=5, mã định danh gói=3
+khác (coolwsd-systemplate-setup)	chữ (chú thích mã)=1
+khác (coolwsd.service)	chữ=1
+khác (coolwsd.spec.in)	chữ=7, ban-quyen-MPL=1, chữ (chú thích mã)=1
+khác (coolwsd.xml.in)	chữ=4, URL=2
+khác (cypress_test)	dữ liệu kiểm thử / tài liệu nội bộ=124, ban-quyen-MPL=2
+khác (debian)	ban-quyen-MPL=240, chữ=80, định danh trong mã (không hiển thị)=2, chữ (chú thích mã)=1
+khác (dev-notes)	dữ liệu kiểm thử / tài liệu nội bộ=346, ảnh=2
+khác (docker)	chữ=140, chữ (chú thích mã)=43, URL=17, dữ liệu kiểm thử / tài liệu nội bộ=16, URL (trong chú thích)=2
+khác (etc)	chữ (chú thích mã)=3, URL (trong chú thích)=2
+khác (favicon.ico)	ảnh=1
+khác (fuzzer)	ban-quyen-MPL=8
+khác (g)	chữ (chú thích mã)=4, URL=4, URL (trong chú thích)=1
+khác (gbuild)	ban-quyen-MPL=25
+khác (man)	chữ=15
+khác (nix)	chữ=5, URL=1
+khác (scripts)	chữ=33, ban-quyen-MPL=26, URL=21, chữ (chú thích mã)=10, định danh trong mã (không hiển thị)=4, URL (trong chú thích)=2
+khác (snap)	chữ=22, chữ (chú thích mã)=15, định danh trong mã (không hiển thị)=8, URL=7, mã định danh gói=5, URL (trong chú thích)=1
+khác (test)	dữ liệu kiểm thử / tài liệu nội bộ=136, ban-quyen-MPL=122
+khác (tools)	ban-quyen-MPL=13, chữ=4, định danh trong mã (không hiển thị)=2
+lõi engine	ban-quyen-MPL=30754, dữ liệu kiểm thử / tài liệu nội bộ=4126, định danh trong mã (không hiển thị)=1386, chữ=1089, chữ (chú thích mã)=624, URL=387, ảnh=316, URL (trong chú thích)=61, mã định danh gói=45
+lõi online (C++)	ban-quyen-MPL=244, chữ (chú thích mã)=33, chữ=20, định danh trong mã (không hiển thị)=7, URL=6, mã định danh gói=1
+vỏ Windows	định danh trong mã (không hiển thị)=65, chữ=35, chữ (chú thích mã)=14, URL=10, ảnh=9, mã định danh gói=4
+vỏ android	định danh trong mã (không hiển thị)=43, mã định danh gói (namespace Java)=33, chữ=15, mã định danh gói=8, URL=6, ảnh=5, chữ (chú thích mã)=1
+vỏ ios	ban-quyen-MPL=30, mã định danh gói=16, chữ=8, chữ (chú thích mã)=8, URL=4, định danh trong mã (không hiển thị)=1, URL (trong chú thích)=1
+vỏ macos	chữ=127, chữ (bản dịch)=87, định danh trong mã (không hiển thị)=80, mã định danh gói=43, siêu dữ liệu bản dịch=43, ban-quyen-MPL=38, chữ (chú thích mã)=18, ảnh=10, URL=5
+vỏ qt	chữ=3833, URL=125, định danh trong mã (không hiển thị)=75, dữ liệu kiểm thử / tài liệu nội bộ=70, chữ (bản dịch)=58, ban-quyen-MPL=54, mã định danh gói=40, chữ (chú thích mã)=25, ảnh=9, URL (trong chú thích)=3
+vỏ wasm	định danh trong mã (không hiển thị)=8, ban-quyen-MPL=3, chữ=2, chữ (chú thích mã)=1
