@@ -840,7 +840,7 @@ public class LOActivity extends AppCompatActivity {
                         Uri uri = mActivity.getIntent().getData();
                         inputStream = contentResolver.openInputStream(uri);
 
-                        mTempFile = File.createTempFile("CollaboraOffice", suffix, mActivity.getCacheDir());
+                        mTempFile = File.createTempFile("SenOffice", suffix, mActivity.getCacheDir());
                         outputStream = new FileOutputStream(mTempFile);
 
                         byte[] buffer = new byte[1024];
@@ -1157,7 +1157,7 @@ public class LOActivity extends AppCompatActivity {
                     InputStream inputStream = null;
                     OutputStream outputStream = null;
                     try {
-                        final File tempFile = File.createTempFile("CollaboraOffice", "." + format, this.getCacheDir());
+                        final File tempFile = File.createTempFile("SenOffice", "." + format, this.getCacheDir());
                         LOActivity.this.saveAs(tempFile.toURI().toString(), format, requestCopy ? "TakeOwnership" : null);
 
                         inputStream = new FileInputStream(tempFile);

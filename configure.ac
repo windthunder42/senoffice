@@ -1211,6 +1211,9 @@ if test -z "$with_app_package_name" -o "$with_app_package_name" = "no"; then
     if test "$enable_iosapp" = "yes"; then
         # The bundle identifier of the official Collabora Office iOS app.
         APP_PACKAGE_NAME="com.collabora.office.Mobile"
+    elif test "$enable_androidapp" = "yes"; then
+        # The application id of the SenOffice Android app.
+        APP_PACKAGE_NAME="vn.senoffice.android"
     else
         APP_PACKAGE_NAME="org.collabora.app"
     fi
@@ -1226,6 +1229,9 @@ if test "$enable_windowsapp" = "yes" -a -z "$with_app_name"; then
 fi
 
 APP_NAME="Collabora Online Development Edition"
+if test "$enable_androidapp" = "yes"; then
+   APP_NAME="SenOffice"
+fi
 if test -n "$with_app_name"; then
    APP_NAME="$with_app_name"
 fi
@@ -1237,7 +1243,10 @@ AC_MSG_CHECKING([for vendor])
 if test \( "$enable_iosapp" = yes -o "$enable_macosapp" = yes \) -a -z "$with_vendor"; then
     AC_MSG_ERROR([You must use --with-vendor when configuring for the iOS / macOS app])
 fi
-if test -z "$with_vendor" -o "$with_vendor" = "no"; then
+if test \( -z "$with_vendor" -o "$with_vendor" = "no" \) -a "$enable_androidapp" = "yes"; then
+    VENDOR="SenOffice"
+    AC_MSG_RESULT([not set, using $VENDOR])
+elif test -z "$with_vendor" -o "$with_vendor" = "no"; then
     VENDOR="$USERNAME"
 
     if test -z "$VENDOR"; then
@@ -1256,6 +1265,10 @@ fi
 AC_SUBST(VENDOR)
 
 INFO_URL='https://www.collaboraoffice.org/'
+if test "$enable_androidapp" = "yes"; then
+    # SenOffice has no product page yet; the About box shows no link.
+    INFO_URL=''
+fi
 if test -n "$with_info_url" -a "$with_info_url" != "no"; then
     INFO_URL="$with_info_url"
 fi

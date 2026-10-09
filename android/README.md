@@ -3,6 +3,14 @@
 
 These instructions build the Collabora Office app for Android. The native parts must be built on Linux; you build the engine first, then the app, from the same monorepo.
 
+**SenOffice:** with `--enable-androidapp`, configure defaults to the app name
+`SenOffice`, the application id `vn.senoffice.android` (`.debug` is appended
+for debug builds), the vendor `SenOffice` and no info URL. Override them with
+`--with-app-name`, `--with-app-package-name`, `--with-vendor` and
+`--with-info-url`. The launcher icon still comes from
+`app/src/main/res/mipmap-*/ic_launcher.png` until a SenOffice branding
+directory (`--with-app-branding`) provides `ic_launcher_brand`.
+
 ## Requirements
 
 * **A computer running Linux.** The native parts of the Android app cannot currently be built on Windows.

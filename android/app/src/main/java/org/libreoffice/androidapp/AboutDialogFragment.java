@@ -55,7 +55,7 @@ public class AboutDialogFragment extends DialogFragment {
             if (!versionHash.isEmpty() && !versionName.isEmpty())
             {
                 String version = String.format(versionView.getText().toString().replace("\n", "<br/>"),
-                        versionName, "<a href=\"https://github.com/CollaboraOnline/online/commits/" + versionHash + "\">" + versionHash + "</a>");
+                        versionName, "<a href=\"https://github.com/windthunder42/senoffice/commits/" + versionHash + "\">" + versionHash + "</a>");
                 @SuppressWarnings("deprecation") // since 24 with additional option parameter
                 Spanned versionString = Html.fromHtml(version);
                 versionView.setText(versionString);
