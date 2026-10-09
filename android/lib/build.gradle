@@ -258,7 +258,7 @@ URE_BIN_DIR=file:///assets/ure/bin/dir/nothing-here/we-can/exec-anyway
         bootstraprc.text = '''\
 [Bootstrap]
 InstallMode=<installmode>
-ProductKey=Collabora Office ''' + "${coVersionMajor}.${coVersionMinor}" + '''
+ProductKey=''' + "${coAppName} ${coVersionMajor}.${coVersionMinor}" + '''
 UserInstallation=file://$APP_DATA_DIR
 '''.stripIndent()
 
