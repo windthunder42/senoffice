@@ -302,10 +302,8 @@ class InitializerBase {
 		window.showAISidebar = false;
 		// Match COOL's ai.show_ai_notebookbar default (false).
 		window.showAINotebookbar = false;
-		// Match COOL's zotero.enable default (true). On the desktop the plugin
-		// is still gated on a user-provided API key (and !isSmallScreenDevice)
-		// so this only surfaces the feature where it makes sense.
-		window.zoteroEnabled = true;
+		// Zotero talks to api.zotero.org; the SenOffice apps keep it off.
+		window.zoteroEnabled = false;
 		// Match COOL's document_signing.enable default (true). Without this the
 		// Sign UI (Backstage entry, notebookbar File-tab button) stays hidden.
 		window.documentSigningEnabled = true;
